@@ -25,11 +25,10 @@
 		<sonar.organization>genspringboot-project</sonar.organization>
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
-
-         </properties>
-	 <repositories>
-            <repository>
-              <id>Artifact</id>
+	
+	<repositories>
+           <repository>
+              <id>Feed</id>
               <url>https://pkgs.dev.azure.com/deepthikadiri4160593/Artifact/_packaging/Artifact/maven/v1</url>
               <releases>
               <enabled>true</enabled>
@@ -37,13 +36,13 @@
               <snapshots>
               <enabled>true</enabled>
               </snapshots>
-           </repository>
-       </repositories>
-
-      <distributionManagement>
-          <repository>
-              <id>Artifact</id>
-              <url>https://pkgs.dev.azure.com/deepthikadiri4160593/Artifact/_packaging/Artifact/maven/v1</url>
+             </repository>
+        </repositories>
+	
+	<distributionManagement>
+            <repository>
+              <id>Feed</id>
+             <url>https://pkgs.dev.azure.com/deepthikadiri4160593/Artifact/_packaging/Artifact/maven/v1</url>
               <releases>
               <enabled>true</enabled>
               </releases>
@@ -52,7 +51,8 @@
               </snapshots>
             </repository>
         </distributionManagement>
-
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -89,5 +89,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
