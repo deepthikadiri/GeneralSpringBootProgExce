@@ -41,17 +41,19 @@
     </repositories>
 	
 	
-	
-   <distributionManagement>
-       <id>artifact1</id>
-       <url>https://pkgs.dev.azure.com/deepthikadiri4160593/artifact/_packaging/artifact1/maven/v1</url>
-       <releases>
-       <enabled>true</enabled>
-       </releases>
-       <snapshots>
-       <enabled>true</enabled>
-       </snapshots>
-   </distributionManagement>
+    <distributionManagement>
+       </repository>
+           <id>artifact1</id>
+           <url>https://pkgs.dev.azure.com/deepthikadiri4160593/artifact/_packaging/artifact1/maven/v1</url>
+           <releases>
+           <enabled>true</enabled>
+           </releases>
+           <snapshots>
+           <enabled>true</enabled>
+           </snapshots>
+       </repository>
+    </distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
