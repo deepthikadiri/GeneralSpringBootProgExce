@@ -27,34 +27,7 @@
 	</properties>
 
          </properties>
-	 <repositories>
-           <repository>
-              <id>springfeed</id>
-              <url>https://pkgs.dev.azure.com/deepthikadiri4160593/20d59213-d0c0-4597-a8d8-a20fa3f4b787/_packaging/springfeed/maven/v1</url>
-              <releases>
-              <enabled>true</enabled>
-              </releases>
-              <snapshots>
-              <enabled>true</enabled>
-              </snapshots>
-           </repository>
-        </repositories>
-	
-	
-
-        <distributionManagement>
-           </repository>
-               <id>springfeed</id>
-              <url>https://pkgs.dev.azure.com/deepthikadiri4160593/20d59213-d0c0-4597-a8d8-a20fa3f4b787/_packaging/springfeed/maven/v1</url>
-              <releases>
-              <enabled>true</enabled>
-              </releases>
-              <snapshots>
-              <enabled>true</enabled>
-              </snapshots>
-           </repository>
-
-       </distributionManagement>
+	 
 
 	<dependencies>
 		<dependency>
