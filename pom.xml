@@ -27,32 +27,32 @@
 	</properties>
 
          </properties>
-	<repositories>
-       <repository>
-          <id>artifact1</id>
-          <url>https://pkgs.dev.azure.com/deepthikadiri4160593/artifact/_packaging/artifact1/maven/v1</url>
-          <releases>
-          <enabled>true</enabled>
-          </releases>
-          <snapshots>
-          <enabled>true</enabled>
-          </snapshots>
-       </repository>
-    </repositories>
+	 <repositories>
+           <repository>
+              <id>artifact1</id>
+              <url>https://pkgs.dev.azure.com/deepthikadiri4160593/artifact/_packaging/artifact1/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+              <enabled>true</enabled>
+              </snapshots>
+          </repository>
+        </repositories>
 	
 	
-    <distributionManagement>
-       </repository>
-           <id>artifact1</id>
-           <url>https://pkgs.dev.azure.com/deepthikadiri4160593/artifact/_packaging/artifact1/maven/v1</url>
-           <releases>
-           <enabled>true</enabled>
-           </releases>
-           <snapshots>
-           <enabled>true</enabled>
-           </snapshots>
-       </repository>
-    </distributionManagement>
+        <distributionManagement>
+           </repository>
+               <id>artifact1</id>
+               <url>https://pkgs.dev.azure.com/deepthikadiri4160593/artifact/_packaging/artifact1/maven/v1</url>
+               <releases>
+               <enabled>true</enabled>
+               </releases>
+               <snapshots>
+               <enabled>true</enabled>
+               </snapshots>
+           </repository>
+       </distributionManagement>
 
 	<dependencies>
 		<dependency>
