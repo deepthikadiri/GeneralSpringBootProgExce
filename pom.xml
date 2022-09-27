@@ -27,7 +27,31 @@
 	</properties>
 
          </properties>
-	 
+	 <repositories>
+            <repository>
+              <id>Artifact</id>
+              <url>https://pkgs.dev.azure.com/deepthikadiri4160593/Artifact/_packaging/Artifact/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+              <enabled>true</enabled>
+              </snapshots>
+           </repository>
+       </repositories>
+
+      <distributionManagement>
+          <repository>
+              <id>Artifact</id>
+              <url>https://pkgs.dev.azure.com/deepthikadiri4160593/Artifact/_packaging/Artifact/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+              <enabled>true</enabled>
+              </snapshots>
+            </repository>
+        </distributionManagement>
 
 	<dependencies>
 		<dependency>
