@@ -28,6 +28,7 @@
 	
 	<repositories>
            <repository>
+		   
               <id>springfeed1</id>
               <url>https://pkgs.dev.azure.com/deepthikadiri4160593/artifactweb/_packaging/springfeed1/maven/v1</url>
               <releases>
@@ -37,6 +38,7 @@
               <enabled>true</enabled>
               </snapshots>
              </repository>
+		
         </repositories>
 	
 	<distributionManagement>
