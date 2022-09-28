@@ -27,8 +27,7 @@
 	</properties>
 	
 	<repositories>
-           <repository>
-		   
+           <repository>   
               <id>Feed-Spring</id>
               <url>https://pkgs.dev.azure.com/deepthikadiri4160593/Demo-Artifact/_packaging/Feed-Spring/maven/v1</url>
               <releases>
@@ -37,8 +36,7 @@
               <snapshots>
               <enabled>true</enabled>
               </snapshots>
-             </repository>
-		
+	   </repository>	
         </repositories>
 	
 	<distributionManagement>
