@@ -26,6 +26,33 @@
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	
+	<repositories>
+           <repository>
+		   
+              <id>springfeed1</id>
+              <url>https://pkgs.dev.azure.com/deepthikadiri4160593/artifactweb/_packaging/springfeed1/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+              <enabled>true</enabled>
+              </snapshots>
+             </repository>
+		
+        </repositories>
+	
+	<distributionManagement>
+            <repository>
+              <id>springfeed1</id>
+             <url>https://pkgs.dev.azure.com/deepthikadiri4160593/artifactweb/_packaging/springfeed1/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+              <enabled>true</enabled>
+              </snapshots>
+            </repository>
+        </distributionManagement>
 	
 	
 	
